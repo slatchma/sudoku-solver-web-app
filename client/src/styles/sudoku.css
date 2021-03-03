@@ -1,0 +1,27 @@
+.sudoku {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sudoku-grid {
+    width: 72vh;
+    height: 72vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+
+}
+
+.sudoku-text {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

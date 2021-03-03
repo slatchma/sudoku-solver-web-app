@@ -1,3 +1,5 @@
 {
-    "hello world": "hola mundo"
+    "resolve": "resolver",
+    "footer": "creado por slatchma",
+    "gridEnter": "entrar en la parrilla del sudoku"
 }
