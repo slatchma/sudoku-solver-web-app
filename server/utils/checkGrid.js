@@ -1,16 +1,3 @@
-const gridValid = [
-    [1, 2, 3, 0, 0, 0, 0, 0, 0],
-    [4, 5, 6, 0, 0, 0, 0, 0, 0],
-    [7, 8, 9, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 1, 2, 3, 0, 0, 0],
-    [0, 0, 0, 4, 5, 6, 0, 0, 0],
-    [0, 0, 0, 7, 8, 9, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 1, 2, 3],
-    [0, 0, 0, 0, 0, 0, 4, 5, 6],
-    [0, 0, 0, 0, 0, 0, 7, 8, 9],
-];
-
-
 const checkBloc = (grid, line, column) => {
     let i = 0;
     let j = 0;
@@ -107,10 +94,5 @@ const checkColumn = grid => {
 
     return(true);
 };
-
-
-
-checkGrid(gridValid);
-
 
 module.exports = checkGrid;
