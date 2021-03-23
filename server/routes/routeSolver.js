@@ -6,7 +6,7 @@ const solver = require('../utils/solver');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
-    res.json({message: 'message of API'});
+    res.json({message: `Hello, it's solver's API`});
 });
 
 router.post('/', (req, res, next) => {

@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import '../../styles/resolve.css';
 
 /**
- * @desc resolve part of application
+ * @desc resolve's part of application
  */
 const Resolve = () => {
   const { t } = useTranslation();
