@@ -94,6 +94,18 @@ const gridErrorLengthLine = [
     [0, 0, 0, 0, 0, 0, 7, 8, 9],
 ];
 
+const gridErrorLengthLine2 =[
+    [1, 2, 3, 0, 0, 0, 0, 0, 0],
+    [4, 5, 6, 0, 0, 0, 0, 0, 0],
+    [7, 8, 9, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 1, 2, 3, 0, 0, 0],
+    [0, 0, 0, 4, 5, 6, 0, 0, 0],
+    [0, 0, 0, 7, 8, 9, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 1, 2, 3],
+    [0, 0, 0, 0, 0, 0, 4, 5, 6],
+    [0, 0, 0]
+]
+
 
 describe('check grid', () => {
     it('check grid valid', () => {
@@ -128,5 +140,9 @@ describe('check grid', () => {
 
     it('check grid error length line', () => {
         expect(checkGrid(gridErrorLengthLine)).toBe(false);
+    })
+
+    it('check grid error length line', () => {
+        expect(checkGrid(gridErrorLengthLine2)).toBe(false);
     })
 })

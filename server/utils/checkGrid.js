@@ -89,8 +89,6 @@ const checkColumn = grid => {
     if(checkColumn(grid)) {
         return false;
     }
-    
-
 
     return(true);
 };
